@@ -1,0 +1,49 @@
+body, html {
+    font-family: 'Courier New', monospace;
+    padding: 20px;
+    margin: 0;
+    background-color: #000; /* black background */
+    color: #00ff00; /* green text */
+}
+
+.module {
+    background-color: #000; /* keep background black */
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #333; /* subtle border */
+}
+
+.module h2 {
+    color: #00ff00; /* green text */
+}
+
+.exercise {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #333; /* dark grey background for contrast */
+    cursor: pointer;
+    border-radius: 5px;
+    color: #00ff00; /* green text */
+}
+
+.exercise:hover {
+    background-color: #444; /* slightly lighter grey on hover */
+}
+
+.solution {
+    display: none;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #222; /* even darker grey for the solution box */
+    border-left: 3px solid #00ff00; /* green left border */
+    color: #00ff00; /* green text */
+}
+
+.solution pre {
+    background-color: #000; /* black background for preformatted text */
+    color: #00ff00; /* green text */
+    padding: 10px;
+    border-radius: 5px;
+    white-space: pre-wrap; /* Wraps the text in pre tag */
+}
